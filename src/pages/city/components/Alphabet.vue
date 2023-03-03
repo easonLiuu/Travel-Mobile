@@ -59,7 +59,7 @@ export default {
           if (index >= 0 && index < this.letters.length) {
             this.$emit('change', this.letters[index])
           }
-        }, 16)
+        }, 8)
       }
     },
     handleTouchEnd () {
