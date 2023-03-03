@@ -1,6 +1,6 @@
 <template>
     <div class="list" ref="wrapper">
-        <div class="content">
+        <div>
             <div class="area">
                 <div class="title border-topbottom">当前城市</div>
                 <div class="button-list">
@@ -73,8 +73,6 @@ export default {
     left: 0
     right: 0
     bottom: 0
-    .content
-        height: 12594px
     .title
         line-height: .54rem
         background: #eee
