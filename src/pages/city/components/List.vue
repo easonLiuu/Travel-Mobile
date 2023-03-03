@@ -1,6 +1,6 @@
 <template>
     <div class="list" ref="wrapper">
-        <div>
+        <div class="content">
             <div class="area">
                 <div class="title border-topbottom">当前城市</div>
                 <div class="button-list">
@@ -17,7 +17,12 @@
                     </div>
                 </div>
             </div>
-            <div class="area" v-for="(item, key) of cities" :key="key">
+            <div
+                class="area"
+                v-for="(item, key) of cities"
+                :key="key"
+                :ref="key"
+            >
                 <div class="title border-topbottom">{{key}}</div>
                 <div class="item-list" v-for="innerItem of item" :key="innerItem.id">
                     <div class="item border-bottom">{{innerItem.name}}</div>
@@ -33,10 +38,20 @@ export default {
   name: 'CityList',
   props: {
     hotCities: Array,
-    cities: Object
+    cities: Object,
+    letter: String
   },
   mounted () {
     this.scroll = new Bscroll(this.$refs.wrapper)
+  },
+  watch: {
+    letter () {
+      if (this.letter) {
+        const element = this.$refs[this.letter][0]
+        // 这里面的参数必须是个DOM元素或者选择器
+        this.scroll.scrollToElement(element)
+      }
+    }
   }
 }
 </script>
@@ -58,6 +73,8 @@ export default {
     left: 0
     right: 0
     bottom: 0
+    .content
+        height: 12594px
     .title
         line-height: .54rem
         background: #eee
