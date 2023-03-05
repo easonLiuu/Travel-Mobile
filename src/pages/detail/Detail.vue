@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import DetailBanner from './components/banner.vue'
+import DetailBanner from './components/Banner.vue'
 export default {
   name: 'Detail',
   components: {
