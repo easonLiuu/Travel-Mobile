@@ -1,6 +1,7 @@
-# new-travel
+# Travel-Mobile
+## Travel-Mobile升级至vue3
 
-## Project setup
+### Project setup
 ```
 yarn install
 ```
@@ -14,6 +15,3 @@ yarn serve
 ```
 yarn build
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
