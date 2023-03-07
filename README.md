@@ -9,7 +9,6 @@
 vue3版本分支链接：[vue3版本](https://github.com/easonLiuu/Travel-Mobile/tree/new-version)
 
 ## 首页
-
 - Header首部
 - 首页轮播
 - 图标区域实现（二维数组）
@@ -17,7 +16,6 @@ vue3版本分支链接：[vue3版本](https://github.com/easonLiuu/Travel-Mobile
 - 父子组件间数据的传递
 
 ## 城市选择页面
-
 - 路由配置
 - 搜索框布局
 - Better-scroll的使用和字母表布局（字母表与列表间的联动）
@@ -28,7 +26,6 @@ vue3版本分支链接：[vue3版本](https://github.com/easonLiuu/Travel-Mobile
 - 使用keep-alive优化路由页面性能
 
 ## 详情页面
-
 - 动态路由配置及banner布局
 - 公用画廊组件拆分（点击banner显示画廊）
 - Header的渐隐渐显
@@ -39,12 +36,10 @@ vue3版本分支链接：[vue3版本](https://github.com/easonLiuu/Travel-Mobile
 ```
 yarn install
 ```
-
 ## Compiles and hot-reloads for development
 ```
 yarn serve
 ```
-
 ## Compiles and minifies for production
 ```
 yarn build
