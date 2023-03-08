@@ -6,7 +6,7 @@
 
 除此之外，该项目有vue3版本，在new-version这个分支上，你可以对比vue2与vue3以更好的理解vue的编程思想。
 
-vue3版本分支链接：[vue3版本](https://github.com/easonLiuu/Travel-Mobile/tree/new-version)
+vue3版本分支链接：[Travel-Mobile的vue3版本](https://github.com/easonLiuu/Travel-Mobile/tree/new-version)
 
 ## 首页
 - Header首部
